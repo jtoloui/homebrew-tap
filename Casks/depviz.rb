@@ -3,7 +3,7 @@ cask "depviz" do
   name "depviz"
   desc "Visualise Go and JS/TS project dependencies as an interactive HTML map"
   homepage "https://github.com/jtoloui/depviz"
-  version "1.0.1"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "depviz" do
   on_macos do
     on_intel do
       url "https://github.com/jtoloui/depviz/releases/download/v#{version}/depviz_Darwin_x86_64.tar.gz"
-      sha256 "e5daad09a13f3ce74a08d66f13148ff14528d16de2b8bb8a58465c39a61a3bc8"
+      sha256 "151f4d2d759de2930f31912ed2410b910cb41be6c8347127b46f500cb8b817cf"
     end
     on_arm do
       url "https://github.com/jtoloui/depviz/releases/download/v#{version}/depviz_Darwin_arm64.tar.gz"
-      sha256 "7483df0f81a7d5920dde71c850aa99336ba00fcb26441db7c76df27b8901c97c"
+      sha256 "784e5852b2b2521b45c616b9523ed502356ec86750f178c50530567ebe8bdb50"
     end
   end
 
